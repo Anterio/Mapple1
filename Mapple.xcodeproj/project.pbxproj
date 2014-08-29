@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320453F591EA4DA7AE0AACD2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A0EF52F90E490DB9666EB3 /* libPods.a */; };
+		8EB4C5E719AF6603002224CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5E619AF6603002224CB /* main.m */; };
+		8EB4C5EA19AF6603002224CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5E919AF6603002224CB /* AppDelegate.m */; };
+		8EB4C5ED19AF6603002224CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5EC19AF6603002224CB /* ViewController.m */; };
+		8EB4C5F019AF6603002224CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4C5EE19AF6603002224CB /* Main.storyboard */; };
+		8EB4C5F219AF6603002224CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4C5F119AF6603002224CB /* Images.xcassets */; };
+		8EB4C5FE19AF6603002224CB /* MappleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5FD19AF6603002224CB /* MappleTests.m */; };
+		8EB4C60819AF662B002224CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB4C60719AF662B002224CB /* CoreLocation.framework */; };
+		8EB4C60A19AF6640002224CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB4C60919AF6640002224CB /* MapKit.framework */; };
+		8EB4C60D19AF6C69002224CB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4C60C19AF6C69002224CB /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB4C5F819AF6603002224CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB4C5D919AF6603002224CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB4C5E019AF6603002224CB;
+			remoteInfo = Mapple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EB4C5E119AF6603002224CB /* Mapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB4C5E519AF6603002224CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB4C5E619AF6603002224CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB4C5E819AF6603002224CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EB4C5E919AF6603002224CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EB4C5EB19AF6603002224CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EB4C5EC19AF6603002224CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EB4C5EF19AF6603002224CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EB4C5F119AF6603002224CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EB4C5F719AF6603002224CB /* MappleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MappleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB4C5FC19AF6603002224CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB4C5FD19AF6603002224CB /* MappleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappleTests.m; sourceTree = "<group>"; };
+		8EB4C60719AF662B002224CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8EB4C60919AF6640002224CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8EB4C60C19AF6C69002224CB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CF41876A4EF4460F89BD1A50 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F1A0EF52F90E490DB9666EB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB4C5DE19AF6603002224CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4C60A19AF6640002224CB /* MapKit.framework in Frameworks */,
+				8EB4C60819AF662B002224CB /* CoreLocation.framework in Frameworks */,
+				320453F591EA4DA7AE0AACD2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB4C5F419AF6603002224CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB4C5D819AF6603002224CB = {
+			isa = PBXGroup;
+			children = (
+				8EB4C60C19AF6C69002224CB /* Podfile */,
+				8EB4C5E319AF6603002224CB /* Mapple */,
+				8EB4C5FA19AF6603002224CB /* MappleTests */,
+				8EB4C5E219AF6603002224CB /* Products */,
+				8EB4C60B19AF6665002224CB /* Frameworks */,
+				CF41876A4EF4460F89BD1A50 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB4C5E219AF6603002224CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C5E119AF6603002224CB /* Mapple.app */,
+				8EB4C5F719AF6603002224CB /* MappleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB4C5E319AF6603002224CB /* Mapple */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C5E819AF6603002224CB /* AppDelegate.h */,
+				8EB4C5E919AF6603002224CB /* AppDelegate.m */,
+				8EB4C5EB19AF6603002224CB /* ViewController.h */,
+				8EB4C5EC19AF6603002224CB /* ViewController.m */,
+				8EB4C5EE19AF6603002224CB /* Main.storyboard */,
+				8EB4C5F119AF6603002224CB /* Images.xcassets */,
+				8EB4C5E419AF6603002224CB /* Supporting Files */,
+			);
+			path = Mapple;
+			sourceTree = "<group>";
+		};
+		8EB4C5E419AF6603002224CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C5E519AF6603002224CB /* Info.plist */,
+				8EB4C5E619AF6603002224CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB4C5FA19AF6603002224CB /* MappleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C5FD19AF6603002224CB /* MappleTests.m */,
+				8EB4C5FB19AF6603002224CB /* Supporting Files */,
+			);
+			path = MappleTests;
+			sourceTree = "<group>";
+		};
+		8EB4C5FB19AF6603002224CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C5FC19AF6603002224CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB4C60B19AF6665002224CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4C60919AF6640002224CB /* MapKit.framework */,
+				8EB4C60719AF662B002224CB /* CoreLocation.framework */,
+				F1A0EF52F90E490DB9666EB3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB4C5E019AF6603002224CB /* Mapple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB4C60119AF6603002224CB /* Build configuration list for PBXNativeTarget "Mapple" */;
+			buildPhases = (
+				73FBF28BD12B4125867127F7 /* Check Pods Manifest.lock */,
+				8EB4C5DD19AF6603002224CB /* Sources */,
+				8EB4C5DE19AF6603002224CB /* Frameworks */,
+				8EB4C5DF19AF6603002224CB /* Resources */,
+				C0A79D39B61949A2A4E05D43 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapple;
+			productName = Mapple;
+			productReference = 8EB4C5E119AF6603002224CB /* Mapple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB4C5F619AF6603002224CB /* MappleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB4C60419AF6603002224CB /* Build configuration list for PBXNativeTarget "MappleTests" */;
+			buildPhases = (
+				8EB4C5F319AF6603002224CB /* Sources */,
+				8EB4C5F419AF6603002224CB /* Frameworks */,
+				8EB4C5F519AF6603002224CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB4C5F919AF6603002224CB /* PBXTargetDependency */,
+			);
+			name = MappleTests;
+			productName = MappleTests;
+			productReference = 8EB4C5F719AF6603002224CB /* MappleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB4C5D919AF6603002224CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Arthur Boia";
+				TargetAttributes = {
+					8EB4C5E019AF6603002224CB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8EB4C5F619AF6603002224CB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8EB4C5E019AF6603002224CB;
+					};
+				};
+			};
+			buildConfigurationList = 8EB4C5DC19AF6603002224CB /* Build configuration list for PBXProject "Mapple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EB4C5D819AF6603002224CB;
+			productRefGroup = 8EB4C5E219AF6603002224CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB4C5E019AF6603002224CB /* Mapple */,
+				8EB4C5F619AF6603002224CB /* MappleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB4C5DF19AF6603002224CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4C60D19AF6C69002224CB /* Podfile in Resources */,
+				8EB4C5F019AF6603002224CB /* Main.storyboard in Resources */,
+				8EB4C5F219AF6603002224CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB4C5F519AF6603002224CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73FBF28BD12B4125867127F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A79D39B61949A2A4E05D43 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB4C5DD19AF6603002224CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4C5ED19AF6603002224CB /* ViewController.m in Sources */,
+				8EB4C5EA19AF6603002224CB /* AppDelegate.m in Sources */,
+				8EB4C5E719AF6603002224CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB4C5F319AF6603002224CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4C5FE19AF6603002224CB /* MappleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB4C5F919AF6603002224CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB4C5E019AF6603002224CB /* Mapple */;
+			targetProxy = 8EB4C5F819AF6603002224CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EB4C5EE19AF6603002224CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB4C5EF19AF6603002224CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB4C5FF19AF6603002224CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EB4C60019AF6603002224CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB4C60219AF6603002224CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF41876A4EF4460F89BD1A50 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Mapple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EB4C60319AF6603002224CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF41876A4EF4460F89BD1A50 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Mapple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EB4C60519AF6603002224CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MappleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapple.app/Mapple";
+			};
+			name = Debug;
+		};
+		8EB4C60619AF6603002224CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MappleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapple.app/Mapple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB4C5DC19AF6603002224CB /* Build configuration list for PBXProject "Mapple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB4C5FF19AF6603002224CB /* Debug */,
+				8EB4C60019AF6603002224CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB4C60119AF6603002224CB /* Build configuration list for PBXNativeTarget "Mapple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB4C60219AF6603002224CB /* Debug */,
+				8EB4C60319AF6603002224CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB4C60419AF6603002224CB /* Build configuration list for PBXNativeTarget "MappleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB4C60519AF6603002224CB /* Debug */,
+				8EB4C60619AF6603002224CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB4C5D919AF6603002224CB /* Project object */;
+}
