@@ -12,6 +12,8 @@
 #import <AFNetworking.h> 
 @interface ViewController () <CLLocationManagerDelegate, MKMapViewDelegate>
 
+
+// shane working now
 @end
 
 @implementation ViewController
