@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		320453F591EA4DA7AE0AACD2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A0EF52F90E490DB9666EB3 /* libPods.a */; };
+		60DC8FD419B258B10080FE5E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DC8FD319B258B10080FE5E /* TableViewController.m */; };
 		8EB4C5E719AF6603002224CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5E619AF6603002224CB /* main.m */; };
 		8EB4C5EA19AF6603002224CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5E919AF6603002224CB /* AppDelegate.m */; };
 		8EB4C5ED19AF6603002224CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4C5EC19AF6603002224CB /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60DC8FD219B258B10080FE5E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		60DC8FD319B258B10080FE5E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		8EB4C5E119AF6603002224CB /* Mapple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB4C5E519AF6603002224CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB4C5E619AF6603002224CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				8EB4C5EE19AF6603002224CB /* Main.storyboard */,
 				8EB4C5F119AF6603002224CB /* Images.xcassets */,
 				8EB4C5E419AF6603002224CB /* Supporting Files */,
+				60DC8FD219B258B10080FE5E /* TableViewController.h */,
+				60DC8FD319B258B10080FE5E /* TableViewController.m */,
 			);
 			path = Mapple;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				8EB4C5ED19AF6603002224CB /* ViewController.m in Sources */,
 				8EB4C5EA19AF6603002224CB /* AppDelegate.m in Sources */,
 				8EB4C5E719AF6603002224CB /* main.m in Sources */,
+				60DC8FD419B258B10080FE5E /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
